@@ -77,7 +77,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        height: 80vh;
+        height: 110vh;
         background-color: rgba(123, 223, 242, 1);
         justify-content: start;
         transform: translateX(100%);
@@ -386,5 +386,4 @@
         font-size: 15px;
     }
 
-    */
 }
