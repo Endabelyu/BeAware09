@@ -1,5 +1,5 @@
 /* tablet */
-@media all and (max-width:768px) {
+/* @media all and (max-width:768px) {
     nav {
 
         width: 100%;
@@ -38,22 +38,19 @@
     .toggle-menu {
         display: flex;
     }
-}
+} */
 
 /* mobile potrait */
 @media all and (max-width: 320px) {
     body {
-        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     /* Header and Navbar */
-    header {
-        width: 100%;
-    }
-
     .navbar {
-        padding: 0;
-        width: 225px;
+        padding: 10px 0;
+        width: 100%;
         justify-content: center;
         color: violet
     }
@@ -66,9 +63,9 @@
     }
 
     nav {
-
         width: 100%;
         overflow: visible;
+
     }
 
     nav ul {
@@ -86,7 +83,9 @@
         transform: translateX(100%);
         transition: all .8s;
         opacity: 0;
+        padding: 20px;
     }
+
 
     nav ul li {
         margin-left: 0px;
@@ -109,10 +108,14 @@
         padding: 0;
         margin-top: 70px;
         width: 100%;
+        height: 500px;
     }
+
 
     .right {
         padding: 20px;
+        width: 100%;
+        float: none;
     }
 
     .right>h1 {
@@ -129,9 +132,6 @@
     }
 
     .jumbotron button {
-        top: 244px;
-        bottom: 51px;
-        width: 155px;
         height: 45px;
         background: #7BDFF2;
         border-radius: 10px;
@@ -144,19 +144,23 @@
     }
 
     .left img {
-        /* display: none; */
         width: 100%;
         margin: auto;
+    }
+
+    .left {
+        /* background-color: violet; */
+        float: none;
     }
 
 
     /* What is Covid 19   */
     .covid19 {
-        /* background-color: gray; */
         width: 100%;
         margin: 0;
         padding: 0;
         margin-bottom: 30px;
+        height: 350px;
     }
 
     .container {
@@ -164,7 +168,13 @@
     }
 
     .content-left {
+        float: none;
+        width: 100%;
         display: none;
+    }
+
+    .img-content img {
+        width: 100%;
     }
 
     .content-right {
@@ -172,12 +182,14 @@
         width: 100%;
         text-align: justify;
         height: 300px;
+        padding: 20px;
     }
+
 
     .txt-covid19 h1 {
         font-size: 1.5em;
         font-weight: bold;
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .txt-covid19 p {
@@ -202,15 +214,19 @@
         padding: 12px 24px 12px 24px;
     }
 
-
     /* prevention section */
     .prevention {
         height: 1050px;
         text-align: center;
-        /* background-color: aqua; */
         margin: 0;
         padding: 0;
-        margin-top: 50px;
+        margin-top: 0px;
+    }
+
+    .prevention-container {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
 
 
@@ -219,11 +235,6 @@
         margin-bottom: 20px;
     }
 
-    .prevention-container {
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-    }
 
     .we-do {
         margin-bottom: 20px;
@@ -247,7 +258,8 @@
         margin-bottom: -20px;
     }
 
-    /* .we-do>span {} */
+
+
 
     /* symptomps section */
     .symptomps {
@@ -267,14 +279,13 @@
 
     .symptomps>h2 {
         text-align: center;
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-bottom: 20px;
     }
 
     .symp-info {
         margin: auto;
         position: relative;
-        /* background-color: gray; */
         width: 100%;
         height: 400px;
         padding: 0;
@@ -289,25 +300,16 @@
     }
 
     .we-feel {
+        margin: auto;
         font-size: 1em;
-        Width: 160px;
+        Width: 200px;
         Height: 47px;
         font-weight: bold;
         padding: 6px 6px;
         margin-bottom: 25px;
-
-
     }
 
-    .dua {
-        margin-left: 0;
-    }
 
-    /* .tiga {} */
-
-    .empat {
-        margin-left: 0px;
-    }
 
     /* footer */
     footer {
@@ -316,11 +318,11 @@
 
     .container-footer {
         flex-direction: column;
-        /* background-color: white; */
         padding: 0;
         height: 800px;
         margin: auto;
-        text-align: center;
+        text-align: justify;
+        padding: 20px;
     }
 
     .container-footer h3 {
@@ -328,6 +330,7 @@
         color: white;
         padding: 20px;
         border-bottom: 2px solid white;
+        text-align: center;
     }
 
     .container-footer p {
@@ -335,24 +338,31 @@
         font-size: 15px;
         font-weight: bold;
         color: white;
+        line-height: 20px;
+    }
+
+    .container-footer span {
+        margin-bottom: 20px;
     }
 
     .about-us {
-        width: 200px;
-        margin-left: 10px;
+        width: 100%;
+
     }
 
     .contact-us {
-        width: 200px;
-        margin-left: 10px;
+        width: 100%;
+
     }
 
     .subscribe {
-        width: 200px;
-        margin-left: 10px;
+        width: 100%;
+        text-align: center;
     }
 
     .email {
+        text-align: center;
+        margin: auto;
         width: 155px;
         height: 45px;
         margin-top: 20px;
@@ -375,4 +385,6 @@
         background-color: #7bdff2;
         font-size: 15px;
     }
+
+    */
 }

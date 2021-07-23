@@ -364,16 +364,16 @@ nav ul li:hover {
 
 .about-us {
     margin-right: 10px;
-    width: 346px;
+    width: 400px;
 }
 
 .contact-us {
     margin-right: 10px;
-    width: 436px;
+    width: 100%;
 }
 
 .subscribe {
-    width: 255px;
+    width: 100%;
 }
 
 .subscribe input {
