@@ -310,6 +310,10 @@
         text-align: center;
     }
 
+    .container-footer p {
+        margin-top: 10px;
+    }
+
     .about-us {
         width: 180px;
         text-align: justify;
@@ -318,6 +322,7 @@
     .contact-us {
         margin-right: 0px;
         width: 236px;
+        padding-bottom: 10px;
     }
 
     .subscribe {
