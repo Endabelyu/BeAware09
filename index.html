@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     <title>BeAware09</title>
 </head>
 <body>
     <header>
-        <section></section>
-        <h2>BeAware09</h2>
-        <nav>
-            <ul>
-                <a href="">
-                    <li class="link">Home</li>
-                </a>
-                <a href="">
-                    <li class="link">About Us</li>
-                </a>
-                <a href="">
-                    <li class="link">Contact Us</li>
-                </a>
-            </ul>
-        </nav>
+        <div class="navbar">
+        <h2>BeAware<span>09</span></h2>
+            <nav>
+                <ul>
+                    <a href="">
+                        <li class="link1">Home</li>
+                    </a>
+                    <a href="">
+                        <li class="link2">About Us</li>
+                    </a>
+                    <a href="">
+                        <li class="link3">Contact Us</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
         <div class="jumbotron">
-            <h1>Stay Home <br> Stay Safe</h1>
-            <p>There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to</p>
-            <button value="Let Us Help"></button>
+            <div class="right">
+                <h1>Stay at Home <br> Stay Safe</h1>
+                <p>There is no specific medicine to prevent or treat Coronavirus disease (COVID-19). People may need supportive care to</p>
+                <button value="Let Us Help">Lets Us Help</button>
+            </div>
+            <div class="left">
+                <img src="assets/jumbotron image.svg" alt="">
+            </div>
         </div>
     </header>
     <main>
@@ -90,17 +97,27 @@
     <footer>
         <div class="container-footer">
             <div class="about-us">
-
+                <h3>About Us</h3>
+                <p>To help prevent the current COVID-19 pandemic. We are committed to helping and providing free rapid test services to public. So that the spread of Covid-19 can be prevented. </p>
             </div>
             <div class="contact-us">
-
+                <h3>Contact Us</h3>
+                <p class="tag"><span>Service Place</span>  <br>
+                Jl. H.R. Rasuna Said Blok X.5 Kav. 4-9, Kota Jakarta Selatan, Daerah Khusus Ibu Kota Jakarta 12950. </p>
+                <p class="tag"><span>E-mail<</span>  <br>
+                beaware@gmail.com </p>
+                <p class="tag"><span>Phone</span>  <br>
+                021 91226171</p>            
             </div>
             <div class="subscribe">
-
+                <h3>Subscribe</h3> 
+                <p>Get the latest information from us</p>
+                <input class="email" type="email" placeholder="E-mail">
+                <input type= submit class="submit" value="submit">
             </div>
         </div>
         <div class="copyright">
-            <p>2019 BeAware09</p>
+            <p>Created by <span>B09</span> Progate Team</p>
         </div>
     </footer>
     <script src="JS/script.js"></script>    

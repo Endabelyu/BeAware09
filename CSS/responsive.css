@@ -1,0 +1,38 @@
+/* tablet */
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+/* } */
+
+
+/* large mobile  */
+/* @media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+/* } */
+
+
+
+/* mobile potrait */
+@media all and (max-width: 480px) {
+
+    /* prevention section */
+    .prevention {
+        height: 1600px;
+        text-align: center;
+        background-color: aqua;
+    }
+
+    .prevention-container {
+        flex-direction: column;
+    }
+
+    .we-do {
+        margin-bottom: 20px;
+    }
+
+    /* symptomps section */
+
+}
