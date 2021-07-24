@@ -155,7 +155,6 @@
         padding: 0;
         margin-bottom: 100px;
         height: 350px;
-
     }
 
     .container {
@@ -233,9 +232,6 @@
     .we-do {
         width: 200px;
         height: 240px;
-        border-radius: 20px;
-        background-color: rgba(123, 223, 242, 1);
-        box-shadow: 5px 5px gray;
         margin: 0;
         margin: auto;
         margin-right: 20px;
@@ -339,6 +335,162 @@
         margin: auto;
         text-align: center;
         margin-top: 20px;
+    }
+}
+
+@media all and (min-width:375px) and (max-width:480px) {
+
+    /* header and navbar */
+    .jumbotron {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        text-align: center;
+        height: 500px;
+    }
+
+    .right {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    .right>p {
+        margin-top: -20px;
+    }
+
+    .left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* what is covid 19 */
+    .covid19 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 660px;
+        margin-bottom: 20px;
+    }
+
+    .content-left {
+        float: none;
+        width: 100%;
+    }
+
+    .content-left img {
+        width: 100%;
+    }
+
+    .content-right {
+        float: none;
+        width: 100%;
+        text-align: justify;
+    }
+
+    /* prevention */
+    .prevention {
+        height: 1260px;
+
+    }
+
+    .prevention-container {
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .we-do {
+        width: 240px;
+        height: 280px;
+        margin: 0;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+    .we-do img {
+        width: 100%;
+        margin-top: -20px;
+        margin-bottom: -15px;
+    }
+
+    /* symptomps */
+    .symptomps {
+        height: 400px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .symptomps>h2 {
+        font-size: 1.8em;
+    }
+
+    .symptomp-container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .symp-info {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .satu {
+        margin-left: 20px;
+    }
+
+    .tiga {
+        margin-left: 20px;
+    }
+
+    .dua {
+        margin-left: 120px;
+    }
+
+    .empat {
+        margin-left: 120px;
+    }
+
+    .symp-img {
+        display: none;
+    }
+
+    /* footer */
+    footer {
+        flex-direction: column;
+        height: 750px;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: -20px 0 -20px 0;
+    }
+
+    .container-footer h3 {
+        color: #ff4f5a;
+    }
+
+    .container-footer p {
+        color: #00000080;
+    }
+
+    .about-us {
+        width: 100%;
+    }
+
+    .container-footer h3 {
+        border-color: gray;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    .subscribe {
+        width: 100%;
     }
 }
 
