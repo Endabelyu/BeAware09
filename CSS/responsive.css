@@ -417,7 +417,7 @@
 
     /* symptomps */
     .symptomps {
-        height: 400px;
+        height: 350px;
         padding: 0;
         margin-bottom: 20px;
     }
@@ -429,6 +429,7 @@
     .symptomp-container {
         flex-direction: column;
         margin-top: 0;
+        height: 350px;
     }
 
     .symp-info {
@@ -459,7 +460,7 @@
     /* footer */
     footer {
         flex-direction: column;
-        height: 750px;
+        height: 980px;
     }
 
     .container-footer {
@@ -491,6 +492,10 @@
 
     .subscribe {
         width: 100%;
+    }
+
+    .email {
+        border: 1px solid grey;
     }
 }
 
